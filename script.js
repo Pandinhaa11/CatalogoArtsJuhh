@@ -1,12 +1,12 @@
 const produtos = [
-    { id: 1, nome: "Baldinho de Pipoca 1L", preco: "R$ 0,00", imagem: "./imagens/baldinho.jpg", categoria: "Diversos" },
-    { id: 2, nome: "Tubete 8cm", preco: "R$ 2,00", imagem: "./imagens/tubete.jpg", categoria: "Diversos" },
-    { id: 3, nome: "Revistinha de colorir com mini giz", preco: "R$ 4,20", imagem: "./imagens/revistinha.jpg", categoria: "Infantil" },
-    { id: 4, nome: "Caixinha acrílica 5x5", preco: "R$ 2,50", imagem: "./imagens/caixinha.jpg", categoria: "Diversos" },
-    { id: 5, nome: "Caneca acrílica com rosca", preco: "R$ 5,50", imagem: "./imagens/caneca.jpg", categoria: "Utilidades" },
-    { id: 6, nome: "Centro de mesa", preco: "R$ 4,50", imagem: "./imagens/centro_mesa.jpg", categoria: "Decoração" },
-    { id: 7, nome: "Produto 7", preco: "R$ 35,00", imagem: "./imagens/produto7.jpg", categoria: "Outros" },
-    { id: 8, nome: "Produto 8", preco: "R$ 45,00", imagem: "./imagens/produto8.jpg", categoria: "Outros" },
+    { id: 1, nome: "Baldinho de Pipoca 1L", preco: "R$ 4,50" },
+    { id: 2, nome: "Tubete 8cm", preco: "R$ 2,00" },
+    { id: 3, nome: "Revistinha de colorir com mini giz", preco: "R$ 4,20" },
+    { id: 4, nome: "Caixinha acrílica 5x5", preco: "R$ 2,50" },
+    { id: 5, nome: "Caneca acrílica com rosca", preco: "R$ 5,50" },
+    { id: 6, nome: "Centro de mesa", preco: "R$ 4,50" },
+    { id: 7, nome: "Pirulito personalizado", preco: "R$ 1.30 a unidade" },
+    { id: 8, nome: "Maletinha plástica", preco: "R$ 4,70" },
 ];
   
   let carrinho = [];
