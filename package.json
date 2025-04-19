@@ -1,7 +1,7 @@
 {
   "devDependencies": {
-    "electron-builder": "^26.0.12",
-    "electron": "^35.2.0"
+    "electron": "^35.2.0",
+    "electron-builder": "^26.0.12"
   },
   "name": "catalogo",
   "version": "1.0.0",
@@ -12,5 +12,8 @@
   "keywords": [],
   "author": "maraujosoares936@gmail.com",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "electron-packager": "^17.1.2"
+  }
 }

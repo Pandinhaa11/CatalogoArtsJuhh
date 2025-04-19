@@ -1,7 +1,14 @@
 const produtos = [
-    { id: 1, nome: "Produto 1", categoria: "Decorativo", preco: "R$ 25,00" },
-    { id: 2, nome: "Produto 2", categoria: "Utilitário", preco: "R$ 40,00" },
-    { id: 3, nome: "Produto 3", categoria: "Decorativo", preco: "R$ 30,00" },
+    { id: 1, nome: "Produto 1", preco: "R$ 25,00" },
+    { id: 2, nome: "Produto 2", preco: "R$ 40,00" },
+    { id: 3, nome: "Produto 3", preco: "R$ 30,00" },
+    { id: 4, nome: "Produto 4", preco: "R$ 50,00" },
+    { id: 5, nome: "Produto 5", preco: "R$ 20,00" },
+    { id: 6, nome: "Produto 6", preco: "R$ 15,00" },
+    { id: 7, nome: "Produto 7", preco: "R$ 35,00" },
+    { id: 8, nome: "Produto 8", preco: "R$ 45,00" },
+
+
   ];
   
   let carrinho = [];
@@ -57,8 +64,9 @@ const produtos = [
   }
   
   btnFinalizar.addEventListener("click", () => {
+    const cartProducts = carrinho.map(item => `${item.nome} - ${item.preco}`).join(", ");
     const mensagem = encodeURIComponent(
-      "Olá, tudo bem? Vim pelo app que tem para baixar no seu site"
+      `Olá, tudo bem? Vim pelo app que tem para baixar no seu site\nOs produtos que escolhi foram: ${cartProducts}`
     );
     window.open(`https://wa.me/5511977158125?text=${mensagem}`, "_blank");
   });

@@ -7,11 +7,11 @@ app.on('ready', () => {
         width: 800,
         height: 600,
         webPreferences: {
-            nodeIntegration: true,
+            nodeIntegration: false,
         },
     });
 
-    mainWindow.loadFile('index.html');
+    mainWindow.loadURL('https://artsjuhcatalogo.vercel.app/');
 
     mainWindow.on('closed', () => {
         mainWindow = null;
